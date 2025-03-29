@@ -1,24 +1,22 @@
-/**Obtenha dados da altura e o gênero (Masculino ou Feminino) de 15 pessoas e apresente os seguintes resultados:
+const nomes = ["Alice", "Bob", "Charlie", "David", "Eve"];
 
-- A maior e a menor altura do grupo;
-- A média de altura das pessoas do gênero Masculino;
-- O número de pessoas do gênero Feminino.
+console.log(nomes[2]);
 
-Para o desenvolvimento da atividade o aluno deve utilizar, obrigatoriamente, a linguagem JavaScript.
+nomes.push("Frank");
+nomes.unshift("Zelda");
 
-Após o término da atividade, o aluno deve disponibilizar o link do seu github com a
-resposta.**/
+console.log(nomes);
 
+nomes.pop();
 
+console.log(nomes);
 
+const numeros = [2, 4, 6, 8];
+const numerosDobrados = numeros.map(numero => numero * 2);
 
-for (var i = 0; i < 3; i++) {
-    var altura = prompt("Digite sua altura: ");
-    al
-    var genero = prompt("Digite seu gênero: ");
-    console.log("Altura: " + altura + ", Gênero: " + genero);
-    
-}
+console.log(numerosDobrados);
 
-var pesquisa = ({genero,altura})
-console.log(pesquisa)
+const numeros2 = [1, 3, 5, 7, 9];
+const numerosMaioresQue5 = numeros2.filter(numero => numero > 5);
+
+console.log(numerosMaioresQue5);
